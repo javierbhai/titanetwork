@@ -1,0 +1,19 @@
+.user-info-container {
+    align-items: center;
+    display: flex;
+
+    .user-avatar {
+        border-radius: 25px;
+        margin-right: 10px;
+        width: 50px;
+    }
+
+    .user-info {
+        display: flex;
+        flex-direction: column;
+
+        .user-name {
+            font-weight: bold;
+        }
+    }
+}

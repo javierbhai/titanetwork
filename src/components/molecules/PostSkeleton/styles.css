@@ -1,0 +1,26 @@
+.skeleton-user-cont {
+    margin-bottom: 40px;
+}
+
+.skeleton-user-info {
+    align-items: center;
+    display: flex;
+}
+
+.skeleton-user-avatar {
+    border-radius: 25px;
+    height: 50px;
+    margin: 0 10px 0 0;
+    width: 50px;
+}
+
+.skeleton-text {
+    height: 19px;
+    margin: 16px 0;
+    width: 100%;
+}
+
+.skeleton-pic {
+    height: 500px;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.post {
+    margin-bottom: 40px;
+    position: relative;
+    width: 100%;
+
+    .post-image {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .post-footer {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 90%);
+        bottom: 0;
+        box-sizing: border-box;
+        padding: 20px;
+        position: absolute;
+        width: 100%;
+
+        .tags-container {
+            margin: 15px 0 10px 0;
+
+            .post-tags {
+                background-color: white;
+                border-radius: 20px;
+                color: #000;
+                font-weight: bold;
+                margin: 0 5px 0 0;
+                padding: 2px 7px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

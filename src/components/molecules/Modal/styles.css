@@ -1,0 +1,17 @@
+.modal {
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.9);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: auto;
+    padding: 70px 30px 30px 30px;
+    position: fixed;
+    width: 100vw;
+}
+
+.modal-post-image {
+    object-fit: cover;
+    width: 100%;
+}
